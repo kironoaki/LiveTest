@@ -1,2 +1,3 @@
-TamperMonkey
-Js
+- TamperMonkey
+- js Get WebSocket connect Live Server
+- Then Create a Local Websocket send info to Local Server
