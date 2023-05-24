@@ -199,7 +199,7 @@
     return (md5_WordToHex(b) + md5_WordToHex(c)).toLowerCase();
 }
     function OnMessage(message){
-
+       //ToDo Decode and Send To  Loacl webSocket
     }
 
     self.StartGetData=function(){
@@ -253,9 +253,7 @@
     self.ws.onerror = function(){
         console.log("连接出错");
     };
-    self.ws.onmessage = OnMessage
-       //ToDo Decode and Send To  Loacl webSocket
-    };
+    self.ws.onmessage = OnMessage;
     setTimeout(self.StartGetData, 10000);
 
   
